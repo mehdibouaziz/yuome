@@ -5,6 +5,7 @@ import Register from './pages/Register';
 import Profile from './pages/Profile';
 import ForgotPassword from './pages/ForgotPassword';
 import './App.css'
+import Navbar from './components/Navbar';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/forgot-password' element={<ForgotPassword />} />
 
         </Routes>
+        <Navbar />
       </Router>
     </>
   )
